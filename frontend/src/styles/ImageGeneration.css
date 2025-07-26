@@ -1,0 +1,131 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #0d0d1a;
+  font-family: sans-serif;
+  color: white;
+}
+
+/* Main container */
+.image-gen-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 140px; /* leave space for fixed input */
+  box-sizing: border-box;
+}
+
+/* Fixed input section */
+.fixed-input-area {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #0d0d1a;
+  z-index: 10;
+  padding: 1.5rem 1rem 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #222;
+}
+
+/* Prompt + buttons area */
+.input-area {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Prompt box */
+.input-area textarea {
+  width: 100%;
+  border-radius: 8px;
+  padding: 0.75rem;
+  background-color: #1a1a2e;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  resize: none;
+}
+
+/* Upload and generate buttons */
+.button-group {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.button-group label,
+.button-group button {
+  background-color: #00bfff;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.button-group button:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
+
+/* Image display */
+.image-display {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* Image block */
+.image-block img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+/* Prompt under image */
+.prompt-display {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a2e;
+  padding: 0.5rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  word-break: break-word;
+}
+
+.prompt-display button {
+  background-color: #4dcaff;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Download button */
+.download-under-image {
+  margin-top: 0.5rem;
+  background-color: #00bfff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}

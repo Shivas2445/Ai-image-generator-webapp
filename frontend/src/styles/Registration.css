@@ -1,0 +1,139 @@
+/* General Body and HTML Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  overflow: hidden;
+}
+
+/* Background Video */
+.registration-bg video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Registration Container - Full Page Center */
+.registration-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+/* Registration Box */
+.registration-box {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 40px;
+  border-radius: 12px;
+  border-left: 4px solid skyblue;
+  width: 350px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(135, 206, 250, 0.6); /* Added shadow to registration box */
+}
+
+/* Title */
+.registration-box h2 {
+  color: skyblue;
+  margin-bottom: 20px;
+}
+
+/* Input Fields & Select */
+.registration-box input,
+.registration-box select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid skyblue;
+  background-color: #222;
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+  box-shadow: 0 4px 10px rgba(135, 206, 250, 0.3); /* Added shadow to input fields */
+}
+
+.registration-box input::placeholder {
+  color: #aaa;
+}
+
+/* Register Button */
+.registration-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: skyblue;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 15px;
+  box-shadow: 0 4px 12px rgba(135, 206, 250, 0.4); /* Added shadow to button */
+}
+
+.registration-box button:hover {
+  background-color: #00bfff;
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(135, 206, 250, 0.5); /* Darker shadow on hover */
+}
+
+/* Error Message */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Checkbox Section - Fixed Alignment */
+.checkbox-wrapper {
+  display: run-in;  /* Changed from -moz-popup to flex */
+  justify-content: left; /* Align to left */
+  align-items: center;  /* Vertically center the checkbox and text */
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+  margin: 0;
+}
+
+.checkbox-label input[type="checkbox"] {
+  margin: 0;  /* Removed the margin to remove any gap */
+  transform: scale(1.2); /* Optional: slightly larger checkbox */
+}
+
+/* Responsive */
+@media screen and (max-width: 400px) {
+  .registration-box {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+/* Link to Login */
+.login-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: white;
+}
+
+.login-link {
+  color: skyblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link:hover {
+  color: #00bfff;
+}
