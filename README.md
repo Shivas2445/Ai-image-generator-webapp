@@ -56,14 +56,14 @@ python ../app.py  # Navigate back to project root if required
 
 # 7️⃣ Start the React frontend
 npm start
+🎥 **Demo Video**  
+📌 Watch the project demo here:  
+👉 [AI Image Generator Web App – Demo](https://drive.google.com/file/d/13pSPvWUEW63T5rtBhfEO1cMZCFNQ4IIB/view?usp=sharing)
 
-🎥 Demo Video
-📌 Watch the project demo here:
-👉 AI Image Generator Web App – Demo
+🔗 **Backend Kaggle Notebook**  
+Check out the backend implementation on Kaggle:  
+👉 [Kaggle Backend Code](https://www.kaggle.com/code/shivashankar2445/minor-backend)
 
-🔗 Backend Kaggle Notebook
-Check out the backend implementation on Kaggle:
-👉 Kaggle Backend Code
 
 ✅ Conclusion
 This project demonstrates how AI and web technologies can work together to turn imagination into reality.
