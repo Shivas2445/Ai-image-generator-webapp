@@ -68,3 +68,12 @@ Check out the backend implementation on Kaggle:
 ✅ Conclusion
 This project demonstrates how AI and web technologies can work together to turn imagination into reality.
 
+## 🤝 Contributors 
+  
+- 👩‍💻 [Swathi M K](https://github.com/SwathiMK2004)
+   ``` 
+- 👩‍💻 [Piyu](https://github.com/piyu-123-106)
+  ``` 
+- 👨‍💻 [Supreet Gouda Hiregoudra](https://github.com/SupreetgoudaHiregoudra)  
+
+
