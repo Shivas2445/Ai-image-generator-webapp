@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import "../styles/ImageGeneration.css";
 
-const BACKEND_URL = "https://dbd1-35-229-100-109.ngrok-free.app";
+const BACKEND_URL = "https://08114afc9213.ngrok-free.app";
 
 const ImageGeneration = () => {
   const [prompt, setPrompt] = useState("");
